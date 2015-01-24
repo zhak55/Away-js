@@ -21,7 +21,7 @@ Away.js is simple lib to manage your links in your app or site
 
 ```
  * {{proto}} - protocol of current link* // => "http:"
- * {{liks}}  - its hostname              // => "foo.com"
+ * {{link}}  - its hostname              // => "foo.com"
  * {{path}}  - pathname                  // => "/path/"
  * {{s}}     - search                    // => "?search=away"
  * {{hash}}  - hash                      // => "#hash"
