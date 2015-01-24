@@ -6,6 +6,7 @@ Away.js is simple lib to manage your links in your app or site
 ```
 <script type="text/javascript"> 
  $(function(){
+ // it wil be applied to all a tags in your page 
    $("a").away({
     template : "You are going to {{link}}. Are you sure?"
    })
