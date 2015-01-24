@@ -1,7 +1,7 @@
 # Away.js
 Away.js is simple lib to manage your links in your app or site
 
-## Installation
+### Installation
 ##### Put this into the page: 
 ```
      <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
@@ -63,5 +63,11 @@ Away.js is simple lib to manage your links in your app or site
      live : true 
    }
  ```
+ 
+ ### Notes
+ 
+ * if <a> contains atrribute [target = _blank], the link will be displayed in new browser blank
+ * if <a> does not contain this attribute - will be used method .assign of location object( history is saved in browser )
+ * Template or text message as a parameter or defined in html is required
  
  
