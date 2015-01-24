@@ -1,5 +1,5 @@
 # Away.js
-Away.js is simple lib to manage your links an app or site
+Away.js is simple lib to manage your links in your app or site
 
 ### Get started 
 
