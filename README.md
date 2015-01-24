@@ -1,6 +1,14 @@
 # Away.js
 Away.js is simple lib to manage your links in your app or site
 
+## Installation
+##### Put this into the page: 
+```
+     <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+     <script src="away.js" type="text/javascript"></script>  
+     <link rel="stylesheet" type="text/css" href="away.css" />  
+```
+
 ### Get started 
 
 ```
