@@ -16,7 +16,7 @@ Away.js is simple lib to manage your links in your app or site
 <a href="https://www.gmail.com/" data-msg="The hostname is {{link}} with protocol - {{proto}}">Go to Mail</a>
 ```
 ### Templating 
-##### This plugin use build-in templating with following key-words:
+##### This plugin uses build-in templating with following key-words:
 ```
  * {{proto}} - protocol of current link 
  * {{liks}}  - its hostname
