@@ -20,14 +20,19 @@ Away.js is simple lib to manage your links in your app or site
 ##### This plugin uses build-in templating with following key-words
 
 ```
- * {{proto}} - protocol of current link 
- * {{liks}}  - its hostname
- * {{path}}  - pathname 
- * {{s}}     - search
- * {{hash}}  - hash
+ * {{proto}} - protocol of current link* // => "http:"
+ * {{liks}}  - its hostname              // => "foo.com"
+ * {{path}}  - pathname                  // => "/path/"
+ * {{s}}     - search                    // => "?search=away"
+ * {{hash}}  - hash                      // => "#hash"
+ * {{port}}  - port                      // => "1337"
+ * {{host}}  - host                      // => "foo.com:1337"
  * {{this}}  - full href 
  ```
- 
+ ```
+ *"http://foo.com:1337/path/?search=away#hash"
+  ```
+  
 ##### It's possible to use html tags:
   ```
  <a href="https://www.bar.com" data-msg="Go to external address <b>{{link}}</b>?">Go to Mail</a>
