@@ -64,7 +64,7 @@ Away.js is simple lib to manage your links in your app or site
    }
  ```
  
- ### Notes
+### Notes
  
  * if <a> contains atrribute [target = _blank], the link will be displayed in new browser blank
  * if <a> does not contain this attribute - will be used method .assign of location object( history is saved in browser )
