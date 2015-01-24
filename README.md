@@ -17,9 +17,11 @@ Away.js is simple lib to manage your links in your app or site
 ```
 ### Template 
 #### This plugin use build-in templating with following key-words:
+```
  * {{proto}} - protocol of current link 
  * {{liks}}  - its hostname
  * {{path}}  - pathname 
  * {{s}}     - search
  * {{hash}}  - hash
  * {{this}}  - full href 
+ ```
