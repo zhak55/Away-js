@@ -11,4 +11,7 @@ Away.js is simple lib to manage your links in your app or site
    })
  });
 </script>
+
+<!-- in html -->
+<a href="https://www.gmail.com/">Go to Mail</a>
 ```
