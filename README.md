@@ -28,13 +28,12 @@ Away.js is simple lib to manage your links in your app or site
  * {{this}}  - full href 
  ```
  
- ##### It's possible to use html tags:
- 
- ```
+##### It's possible to use html tags:
+  ```
  <a href="https://www.bar.com" data-msg="Go to external address <b>{{link}}</b>?">Go to Mail</a>
  ```
  
- ### Settings 
+### Settings 
  
  ```
  {
