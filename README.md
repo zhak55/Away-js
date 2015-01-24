@@ -30,5 +30,22 @@ Away.js is simple lib to manage your links in your app or site
  ```
  <a href="https://www.bar.com" data-msg="Go to external address <b>{{link}}</b>?">Go to Mail</a>
  ```
+ ### Settings 
+ 
+ ```
+ {
+    // the default template that will be used for a tags
+    template : "You are going to {{link}}. Are you sure?" ,
+    // change default name of buttons 
+    btn : {
+     ok     : "I agree    ,
+     cancel : "I disagree" 
+     } ,
+     // if you do not use selector <a> where live:true is default, 
+     // set true in order to attach an event handler for all elements which match 
+     // the current selector, now and in the future
+     live : true 
+   }
+ ```
  
  
