@@ -17,7 +17,8 @@ Away.js is simple lib to manage your links in your app or site
 <a href="https://www.gmail.com/" data-msg="The hostname is {{link}} with protocol - {{proto}}">Go to Mail</a>
 ```
 ### Templating 
-##### This plugin uses build-in templating with following key-words:
+##### This plugin uses build-in templating with following key-words
+
 ```
  * {{proto}} - protocol of current link 
  * {{liks}}  - its hostname
@@ -26,19 +27,22 @@ Away.js is simple lib to manage your links in your app or site
  * {{hash}}  - hash
  * {{this}}  - full href 
  ```
- It's possible to use html tags:
+ 
+ ##### It's possible to use html tags:
+ 
  ```
  <a href="https://www.bar.com" data-msg="Go to external address <b>{{link}}</b>?">Go to Mail</a>
  ```
+ 
  ### Settings 
  
  ```
  {
-    // the default template that will be used for a tags
+    // the default template that will be used for all a tags
     template : "You are going to {{link}}. Are you sure?" ,
     // change default name of buttons 
     btn : {
-     ok     : "I agree    ,
+     ok     : "I agree"    ,
      cancel : "I disagree" 
      } ,
      // if you do not use selector <a> where live:true is default, 
