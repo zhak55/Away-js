@@ -10,12 +10,14 @@
  // parse url: [protocol ], [hostname], [pathname], [search], [hash]
  // @param  {String} url
  // @return {Object} a
+    
  var parseLink = (function() {
   var a = document.createElement("a")
     return function( url ) {
       return ( a.href = url ) && a;
      }
-   }())
+   }());
+    
  , $initialized = true
  , $container
  , $global = window
